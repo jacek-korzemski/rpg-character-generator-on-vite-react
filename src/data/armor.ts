@@ -1,0 +1,18 @@
+export const armor = [
+    "No armor (tier 0)",
+    "Light (fur -D2 damage, tier 1)",
+    "Light (padded cloth -D2 damage, tier 1)",
+    "Light (leatcher -D2 damage, tier 1)",
+    "Medium (scale, -D4 damage, tier 2)",
+    "Medium (mail, -D4 damage, tier 2)",
+    "Heavy (split, -D6 damage, tier 3)",
+    "Heavy (plate, -D6 damage, tier 3)",
+    "No armor (tier 0) + shield (-1 damage)",
+    "Light (fur -D2 damage, tier 1) + shield (-1 damage)",
+    "Light (padded cloth -D2 damage, tier 1) + shield (-1 damage)",
+    "Light (leatcher -D2 damage, tier 1) + shield (-1 damage)",
+    "Medium (scale, -D4 damage, tier 2) + shield (-1 damage)",
+    "Medium (mail, -D4 damage, tier 2) + shield (-1 damage)",
+    "Heavy (split, -D6 damage, tier 3) + shield (-1 damage)",
+    "Heavy (plate, -D6 damage, tier 3) + shield (-1 damage)",
+];
