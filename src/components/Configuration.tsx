@@ -6,7 +6,11 @@ import { weapons as initialWeapons } from "~/data/weapons";
 import { equipement as initialEquipement } from "~/data/equipement";
 import { AppContext } from "~/App";
 
-const Configuration = (props) => {
+interface PropsInterface {
+    open: boolean;
+}
+
+const Configuration: React.FC<PropsInterface> = (props) => {
     const app = useContext(AppContext);
 
     const toggleArmor = (elem) => {
