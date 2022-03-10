@@ -1,4 +1,4 @@
-import { randomInt, randomElementFromArray, nRandomElementsFromArray } from "~/utils/randomizers";
+import { randomInt, randomElementFromArray, nRandomElementsFromArray } from "@/utils/randomizers";
 
 export const generateRandomPlayer = (armor = [], weapons = [], equipement = [], minEqElements = 1, maxEqElements = 8) => {
     armor = armor ? armor : [];

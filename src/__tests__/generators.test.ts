@@ -1,7 +1,7 @@
-import { generateRandomPlayer } from "~/utils/generators";
-import { weapons } from "~/data/weapons";
-import { equipement } from "~/data/equipement";
-import { armor } from "~/data/armor";
+import { generateRandomPlayer } from "@/utils/generators";
+import { weapons } from "@/data/weapons";
+import { equipement } from "@/data/equipement";
+import { armor } from "@/data/armor";
 
 /*
     TESTING:

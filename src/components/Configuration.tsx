@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import Sidebar from "~/styled-components/Sidebar";
-import ButtonSelect from "~/styled-components/ButtonSelect";
-import { armor as initialArmor } from "~/data/armor";
-import { weapons as initialWeapons } from "~/data/weapons";
-import { equipement as initialEquipement } from "~/data/equipement";
-import { AppContext } from "~/App";
+import Sidebar from "@/styled-components/Sidebar";
+import ButtonSelect from "@/styled-components/ButtonSelect";
+import { armor as initialArmor } from "@/data/armor";
+import { weapons as initialWeapons } from "@/data/weapons";
+import { equipement as initialEquipement } from "@/data/equipement";
+import { AppContext } from "@/App";
 
 interface PropsInterface {
     open: boolean;

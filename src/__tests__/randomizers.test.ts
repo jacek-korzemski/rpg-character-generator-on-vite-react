@@ -1,5 +1,5 @@
-import { randomInt, randomElementFromArray, nRandomElementsFromArray } from "~/utils/randomizers";
-import { weapons } from "~/data/weapons";
+import { randomInt, randomElementFromArray, nRandomElementsFromArray } from "@/utils/randomizers";
+import { weapons } from "@/data/weapons";
 
 /*
     TESTING:

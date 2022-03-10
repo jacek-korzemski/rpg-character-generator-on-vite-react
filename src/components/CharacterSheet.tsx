@@ -1,6 +1,6 @@
 import React from "react";
-import CharacterSheetWrapper from "~/styled-components/CharacterSheetWrapper";
-import { names } from "~/data/names";
+import CharacterSheetWrapper from "@/styled-components/CharacterSheetWrapper";
+import { names } from "@/data/names";
 
 interface PlayerInterface {
     player: {

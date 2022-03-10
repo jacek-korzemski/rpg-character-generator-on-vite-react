@@ -1,12 +1,12 @@
 import React, { createContext, useState } from "react";
-import Grid from "~/styled-components/Grid";
-import Configuration from "~/components/Configuration";
-import CharacterSheet from "~/components/CharacterSheet";
+import Grid from "@/styled-components/Grid";
+import Configuration from "@/components/Configuration";
+import CharacterSheet from "@/components/CharacterSheet";
 import ReactToPdf from "react-to-pdf";
-import { armor as initialArmor } from "~/data/armor";
-import { weapons as initiialWeapons } from "~/data/weapons";
-import { equipement as initiialEquipement } from "~/data/equipement";
-import { generateRandomPlayer } from "~/utils/generators";
+import { armor as initialArmor } from "@/data/armor";
+import { weapons as initiialWeapons } from "@/data/weapons";
+import { equipement as initiialEquipement } from "@/data/equipement";
+import { generateRandomPlayer } from "@/utils/generators";
 
 interface AppContextInterface {
     armor?: string[];
